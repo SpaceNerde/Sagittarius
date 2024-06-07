@@ -1,0 +1,7 @@
+[package]
+name = "sagittarius-linked-list"
+version.workspace = true 
+edition.workspace = true
+
+[dependencies]
+

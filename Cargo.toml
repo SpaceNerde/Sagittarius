@@ -4,3 +4,14 @@ version = "0.0.0"
 edition = "2021"
 
 [dependencies]
+sagittarius-linked-list = { path = "./sagittarius-linked-list" }
+
+[workspace.package]
+version = "0.0.0"
+edition = "2021"
+
+[workspace]
+members = [
+  "sagittarius-linked-list",
+]
+
